@@ -2,7 +2,7 @@
 
 
  
-// In situations where we dont want the value of our variable to change we use constans
+// In situations where we don't want the value of our variable to change we use constant
 
 let interestRateVariable = 0.3;
 interestRateVariable = 0.5;

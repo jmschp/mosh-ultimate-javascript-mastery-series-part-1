@@ -42,11 +42,11 @@ function calculateGrade(marks) {
 }
 
 
-// Mosh solution for cleaner code to respect the Single Reponsabilte Principle
-// We should separete aour function in smaller functions each one with its on porpose.
-// In the case separte de avareage calculation from the grade. 
+// Mosh solution for cleaner code to respect the Single Responsibility Principle
+// We should separate our function in smaller functions each one with its on purpose.
+// In the case separate de average calculation from the grade. 
 
-function calculateAvarege(array) {
+function calculateAverage(array) {
     let sum = 0;
     for (let value of array)
         sum += value;
@@ -54,7 +54,7 @@ function calculateAvarege(array) {
 }
 
 function calculateGrade(marks) {
-    const average = calculateAvarege(marks);
+    const average = calculateAverage(marks);
     if (average < 60) return 'F';
     if (average < 70) return 'D';
     if (average < 80) return 'C';

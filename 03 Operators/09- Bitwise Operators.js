@@ -41,7 +41,7 @@ So the user can have this permissions:
     Read
     Write
     Execute
-We can use one byte of information (the same as 8 bits) to determine the kind of permision a user has.
+We can use one byte of information (the same as 8 bits) to determine the kind of permission a user has.
 For each permission we assign one bit.
     Read                       ---> 00000100 ---> 4 in decimal
     Write                      ---> 00000110 ---> 2 in decimal
@@ -59,7 +59,7 @@ const executePermission = 1; // We convert the binary number 0000001 to decimal,
 
 let myPermission = 0; // We declare a variable and initially we do not have any permissions 0 decimal equal to 00000000 binary
 
-myPermission = myPermission | readPermission; // With the bitwise "|" operator we are assing the read permission to the user 
+myPermission = myPermission | readPermission; // With the bitwise "|" operator we are assign the read permission to the user 
 console.log(myPermission)
 
 myPermission = myPermission | writePermission; // And here we add the write permission.

@@ -36,5 +36,5 @@ switch (role) {
         console.log('moderator user');
         break;
    default:
-        console.log('Unkown user');
+        console.log('Unknown user');
 }

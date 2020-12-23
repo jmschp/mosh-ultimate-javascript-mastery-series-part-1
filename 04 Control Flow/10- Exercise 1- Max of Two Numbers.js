@@ -8,4 +8,4 @@ function max1(number1, number2) {
 
 console.log(max1(4, 9))
 
-// We could also use if else statments, but this is the cleanes implementation.
+// We could also use if else statements, but this is the cleaner implementation.

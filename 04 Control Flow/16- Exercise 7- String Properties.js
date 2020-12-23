@@ -2,7 +2,7 @@
 
 /*
 Create function "showProperties()"".
-Pass an object to that function, and it should and is shoud diplay all the properties of the object that are of type string.
+Pass an object to that function, and it should and is should display all the properties of the object that are of type string.
 */
 
 function showProperties(object) {
@@ -14,7 +14,7 @@ function showProperties(object) {
 
 const movie = {
     title: "a",
-    realeseYear: 2018,
+    releaseYear: 2018,
     rating: 4.5,
     director: "b"
 }

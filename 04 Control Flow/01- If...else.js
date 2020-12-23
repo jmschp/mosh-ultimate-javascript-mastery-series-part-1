@@ -1,7 +1,7 @@
 // 01- If...else
 
 /*
-Conditional Statments:
+Conditional Statements:
 Definition and Usage
 The if/else statement executes a block of code if a specified condition is true. If the condition is false, another block of code can be executed.
 
@@ -35,11 +35,11 @@ if (condition1) {
   block of code to be executed if the condition1 is false and condition2 is false
 }
 
-When a condition is true, the following conditions will be igonored.
+When a condition is true, the following conditions will be ignored.
 
-Example depending on the hour we want to display a diferent message.
+Example depending on the hour we want to display a different message.
 If hour is between 6:00 and 12:00, we want to display good morning.
-If hour is between 12:00 and 18:00, we want to display good afternon.
+If hour is between 12:00 and 18:00, we want to display good afternoon.
 Otherwise display good evening.
 */
 
@@ -48,6 +48,6 @@ let hour = 15
 if (hour >= 6 && hour < 12)
     console.log('Good Morning')
 else if (hour >= 12 && hour <= 18)
-    console.log('Good afternon')
+    console.log('Good afternoon')
 else
     console.log('Good evening')

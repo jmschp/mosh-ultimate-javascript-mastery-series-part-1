@@ -5,7 +5,7 @@
 Implement functions "checkSpeed()", it take one parameter, the speed of teh car.
 Speed Limit <= 70 ---> display ok message
 For every 5 km/h above the speed limit, they are going to get 1 point
-If speed above 180 km/h ---> Points >= 12 ---> Lincense suspended
+If speed above 180 km/h ---> Points >= 12 ---> License suspended
 */
 
 
@@ -17,7 +17,7 @@ function checkSpeed(speed) {
         points = (speed - 70) / 5;
         return points;
     }
-    return "Lincense suspended";
+    return "License suspended";
 }
 
 

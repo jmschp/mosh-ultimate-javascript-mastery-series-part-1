@@ -3,9 +3,9 @@
 
 /*
 Create function "showNumbers()"
-Acepts a number as parameter, it will return all the numbers up to that number telling if it is odd or evem
+Accepts a number as parameter, it will return all the numbers up to that number telling if it is odd or even
 Example:
-If we pass to that function 3 as agument, it should return the following.
+If we pass to that function 3 as argument, it should return the following.
 0 "EVEN"
 1 "ODD"
 2 "EVEN"

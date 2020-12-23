@@ -1,7 +1,7 @@
 // 03- Assignment Operators
 
 /*
-Theses are the assignmet operator: 
+Theses are the assignment operator: 
     =
     +=
     -=

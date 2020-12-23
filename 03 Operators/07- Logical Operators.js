@@ -12,18 +12,18 @@ x = 6 and y = 3
 !(x === y) is true
 */
 
-// Lets say we want to determine if some one is elegible for a loan, based on is income and credit score.
+// Lets say we want to determine if some one is eligible for a loan, based on is income and credit score.
 
 let hiIncome = false
 let goodCreditScore = true
 
-let elegibleForLoan = hiIncome && goodCredit // With and operator "&&" applicant has to have high income and good credit score to be elegible for loan.
-console.log(elegibleForLoan)
+let eligibleForLoan = hiIncome && goodCredit // With and operator "&&" applicant has to have high income and good credit score to be eligible for loan.
+console.log(eligibleForLoan)
 
-elegibleForLoan = hiIncome || goodCredit // With or operator "||" applicant has to have high income or good credit score to be elegible for loan. If one of them is true elebible for loan will be true.
-console.log(elegibleForLoan)
+eligibleForLoan = hiIncome || goodCredit // With or operator "||" applicant has to have high income or good credit score to be eligible for loan. If one of them is true elidible for loan will be true.
+console.log(eligibleForLoan)
 
-let applicationRefused = !elegibleForLoan
+let applicationRefused = !eligibleForLoan
 console.log(applicationRefused)
 // With not operator "!" it will convert true to false and false to true.
-//So if the applicant is not elegible for loan, meaning "elegibleForLoan = false", is application will be refused meaning "applicationRefused = !elegibleForLoan" will return true.
+//So if the applicant is not eligible for loan, meaning "eligibleForLoan = false", is application will be refused meaning "applicationRefused = !eligibleForLoan" will return true.

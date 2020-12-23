@@ -1,14 +1,14 @@
 // 08- Logical Operators with Non-booleans
 
 /*
-We can use the logical operators with non bollean values
+We can use the logical operators with non boolean values
     &&
     ||
     !
 
 The result of the logical expression it is not necessarily a boolean value true or false.
 That depends on the value of the operands we have.
-The logical operations looks at each operant, and if the operand is not a bolean true or false, it will try to interpret it as Truthy or Falsy.
+The logical operations looks at each operant, and if the operand is not a boolean true or false, it will try to interpret it as Truthy or Falsy.
 
 Falsy values (False)
     false
@@ -31,12 +31,12 @@ console.log(false || 1 || 2) // This returns 1 because is the first Truthy opera
 // When using the '||' or operator the evaluation starts in the first operand, and stops in the first Truthy value it finds, if there are any.
 // This is called short-circuiting
 
-// A real world example to use this coul be for default values.
+// A real world example to use this could be for default values.
 // For example if a user picks a color we that color, if we does not pick a color we use the default value.
 
 let userColor = 'red'
-let defaultColer = 'blue'
-console.log(userColor || defaultColer) // This basicly means that if we have a value for the user color we use that, if we don't we use the default color.
+let defaultColor = 'blue'
+console.log(userColor || defaultColor) // This basically means that if we have a value for the user color we use that, if we don't we use the default color.
 
 userColor = undefined
-console.log(userColor || defaultColer) // Here the user did not pick a color, the variable user is set to undefined, so we will use the defaul color.
+console.log(userColor || defaultColor) // Here the user did not pick a color, the variable user is set to undefined, so we will use the default color.

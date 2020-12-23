@@ -2,7 +2,7 @@
 
 /*
 A infinite loop executes infinity or forever.
-If we create such a loop we may crash the broser or the computer.
+If we create such a loop we may crash the browser or the computer.
 */
 
 let i = 0;
@@ -10,7 +10,7 @@ while (i < 5){
     console.log(i);
     // i++
 }
-// If we forget to increment i we loop runs forevar.
+// If we forget to increment i we loop runs forever.
 
 
 for (i = 1; i > 0; i++) {

@@ -22,7 +22,7 @@ for (variable in object) {
 
 variable:
 Required. A variable that iterates over the properties of an object
-In each iteration the variable will be assing a propeerty.
+In each iteration the variable will be assign a property.
 
 object:
 Required. The specified object that will be iterated

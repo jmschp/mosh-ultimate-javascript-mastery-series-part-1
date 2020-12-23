@@ -2,7 +2,7 @@
 
 /*
 An expression with a comparison operator will return a boolean value
-These are the comparison operatores
+These are the comparison operators
     ==	equal to	
     ===	equal value and equal type
     !=	not equal

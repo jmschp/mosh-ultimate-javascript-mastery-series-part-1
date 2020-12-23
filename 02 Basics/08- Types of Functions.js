@@ -3,11 +3,11 @@
 
 /*
 We have to types of functions:
-    Perfoms a task
+    Performs a task
     Calculates value
 */
 
-// Perfoms a task
+// Performs a task
 function greetPerson(firstName, lastName) {
     console.log("Hello " + firstName + " " + lastName);
 }
@@ -18,7 +18,7 @@ function square(number) {
     return number * number;
 }
 
-// This function is calculats a value and returning it. So we ruturn the value to how ever is calling the function.
+// This function is calculates a value and returning it. So we return the value to how ever is calling the function.
 
 let number = square(2)
 console.log(number)

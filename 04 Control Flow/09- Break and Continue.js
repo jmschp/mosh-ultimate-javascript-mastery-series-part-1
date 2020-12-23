@@ -1,7 +1,7 @@
 // 09- Break and Continue
 
 /*
-Break statment definition and usage:
+Break statement definition and usage:
 The break statement exits a switch statement or a loop (for, for ... in, while, do ... while).
 When the break statement is used with a switch statement, it breaks out of the switch block.
 This will stop the execution of more execution of code and/or case testing inside the block.
@@ -14,14 +14,14 @@ Syntax:
 break;
 
 Using the optional label reference:
-break labelname;
+break label name;
 */
 
 for (let i = 0; i <= 10; i++) {
   if (i === 5) {
     break;
   }
-  console.log('Foor loop - The index is ' + i);
+  console.log('For loop - The index is ' + i);
 }
 
 let i  = 0
@@ -32,7 +32,7 @@ while (i <= 10) {
 }
 
 /*
-Continue statment definition and usage
+Continue statement definition and usage
 The continue statement breaks one iteration (in the loop) if a specified condition occurs, and continues with the next iteration in the loop.
 The difference between continue and the break statement, is instead of "jumping out" of a loop, the continue statement "jumps over" one iteration in the loop.
 However, when the continue statement is executed, it behaves differently for different types of loops:
@@ -46,14 +46,14 @@ Syntax:
 continue;
 
 Using the optional label reference:
-continue labelname;
+continue label name;
 */
 
 for (let i = 0; i <= 10; i++) {
     if (i % 2 === 0) {
       continue;
     }
-    console.log('Foor loop - The index is ' + i);
+    console.log('For loop - The index is ' + i);
   }
 
 let x = 0

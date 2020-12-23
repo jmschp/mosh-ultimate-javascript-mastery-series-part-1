@@ -37,7 +37,7 @@ function showPrime(limit) {
 }
 
 
-// Solution appling the Single Responsibility Principle
+// Solution applying the Single Responsibility Principle
 
 function isPrime(number) {
     for (let factor = 2; factor < number; factor++)
