@@ -30,7 +30,7 @@ let run = function () {
 // Different from the Function Declaration a Function Expression should have a ; in the end
 
 // Named Function Expression
-let jump = function jump() {
+const jump = function jump() {
   console.log("jump");
 };
 
