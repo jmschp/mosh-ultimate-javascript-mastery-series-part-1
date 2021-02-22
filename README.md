@@ -2,6 +2,20 @@
 
 ![The Ultimate JavaScript Mastery Series - Part 1](https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/4JkBtVU9QUwcwFCWi3AV "The Ultimate JavaScript Mastery Series - Part 1")
 
+### Introduction
+
+This repository was made while studying with [Mosh Hamedani](https://programmingwithmosh.com/ "Programming with Mosh"), in [Code with Mosh](https://codewithmosh.com/ "Code with Mosh"). And it contains all my notes from the course. It can be used as an extensive JavaScript cheatsheet.
+
+## Course content
+
+1. Getting Started
+2. Basics
+3. Operators
+4. Control Flow
+5. Objects
+6. Arrays
+7. Functions
+
 ## Getting Started (17m)
 
 1. Welcome (0:28)
@@ -126,4 +140,3 @@
 12. Exercise 1- Sum of Arguments (3:42)
 13. Exercise 2- Area of Circle (1:53)
 14. Exercise 3- Error Handling (2:49)
-
