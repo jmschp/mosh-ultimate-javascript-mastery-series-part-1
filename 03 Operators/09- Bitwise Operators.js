@@ -44,8 +44,8 @@ So the user can have this permissions:
 We can use one byte of information (the same as 8 bits) to determine the kind of permission a user has.
 For each permission we assign one bit.
     Read                       ---> 00000100 ---> 4 in decimal
-    Write                      ---> 00000110 ---> 2 in decimal
-    Execute                    ---> 00000111 ---> 1 in decimal
+    Write                      ---> 00000010 ---> 2 in decimal
+    Execute                    ---> 00000001 ---> 1 in decimal
 
     Read                       ---> 00000100 ---> 4 in decimal
     Read and Write             ---> 00000110 ---> 6 in decimal
